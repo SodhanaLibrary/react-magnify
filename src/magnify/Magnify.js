@@ -27,8 +27,8 @@ class Magnify extends React.Component {
    }
 
    onMouseOver(e) {
-      const mx = e.pageX - this.img.x;
-      const my = e.pageY - this.img.y;
+      const mx = e.pageX - (this.img.x || this.img.getBoundingClientRect().x);
+      const my = e.pageY - (this.img.y || this.img.getBoundingClientRect().y);
       if(mx < this.img.offsetWidth && my < this.img.offsetHeight && mx > 0 && my > 0)
 			{
         let rx = Math.round(mx/this.img.offsetWidth*this.state.imgWidth - this.glass.offsetWidth/2)*-1;
