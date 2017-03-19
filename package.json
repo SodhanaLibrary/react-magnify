@@ -1,6 +1,6 @@
 {
   "name": "react-magnify",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Magnifying glass for image zoom using ReactJS",
   "main": "./lib/react-magnify.js",
   "scripts": {
