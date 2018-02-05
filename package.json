@@ -23,7 +23,7 @@
   "homepage": "https://github.com/SodhanaLibrary/react-magnify",
   "dependencies": {
     "bootstrap": "^4.0.0-alpha.3",
-    "node-sass": "^3.10.1",
+    "node-sass": "^4.5.3",
     "react": "15.3.2",
     "react-addons-css-transition-group": "^15.3.2",
     "react-dom": "15.3.2",
