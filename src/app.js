@@ -3,9 +3,13 @@ import Magnify from './magnify/Magnify';
 
 export default class App extends React.Component {
 
+	var temp = 2;
+	
   constructor(props) {
     super(props);
   }
+
+	
 
 
   render() {
@@ -20,7 +24,7 @@ export default class App extends React.Component {
         <br/>
         <Magnify style={{
           width:'200px'
-        }} src="http://thecodeplayer.com/uploads/media/iphone.jpg"></Magnify>
+        }} src="http://thecodeplaye.com/uploads/media/iphone.jpg"></Magnify>
       </div>
     )
   }
